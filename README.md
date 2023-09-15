@@ -10,3 +10,5 @@ good.
 hello
 hi.
 s
+hello~
+hi.
