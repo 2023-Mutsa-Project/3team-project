@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.blog {
+  background-color: gray;
+  display: flex;
+  color: white;
+  padding: 20px;
+  width: 100%;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +43,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Footer */ 
+#footer {
+  padding: 8px; 
+  background: #ffed87;
+  text-align: center;
+  color: #a16c00;
+}   
+
+#footer h2{
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+#footer p{
+  text-align: center;
+  font-size: 12px;
+}
+
+.copyright {
+  background: #ffed87;
+  display: inline-block;
+  color: #a16c00;
+  font-size: 0.75em;
+  text-align: center;
+  border-top: 3px solid rgba(255, 255, 255, 0.25);
+  padding: 1.5em 0 1em 0;
+  width: 100%;
 }
